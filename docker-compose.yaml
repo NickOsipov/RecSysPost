@@ -17,7 +17,7 @@ services:
       retries: 3
 
   backend:
-    build: Dockerfile.backend
+    build: Dockerfile
     container_name: backend
     environment:
       HOST: database
