@@ -1,5 +1,6 @@
 fastapi==0.75.1
 uvicorn==0.16.0
+# pyyaml==6.0
 # pandas==1.4.2
 # sqlalchemy==1.4.35
 # requests==2.27.1

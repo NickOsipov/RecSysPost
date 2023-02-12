@@ -1,0 +1,11 @@
+DATABASE_CONFIG:
+  HOST: database
+  PORT: 5432
+  DB_USER: postgres
+  DB_PASSWORD: postgres
+  DB: recsys_db
+DATA_PATH:
+  user_info: "user_info.parquet"
+  post_info: "post_info.parquet"
+  feed_data: "feed_data.parquet"
+  like_post: "like_post.parquet"
