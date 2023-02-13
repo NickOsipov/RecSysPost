@@ -23,7 +23,7 @@ def batch_load_sql(query: str, chunksize=200_000) -> pd.DataFrame:
 def load_model():
     with open("config/config.yaml") as config:
         config = yaml.safe_load(config)
-        model_path = config.get("MODEL_PATH")
+        model_path = config.get("MODEL_PATH").get("catboost")
     model = CatBoostClassifier()
     model.load_model(model_path)
     return model
