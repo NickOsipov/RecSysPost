@@ -9,3 +9,5 @@ DATA_PATH:
   post_info: "post_info.parquet"
   feed_data: "feed_data.parquet"
   like_post: "like_post.parquet"
+MODEL_PATH:
+  catboost: "models/model"
